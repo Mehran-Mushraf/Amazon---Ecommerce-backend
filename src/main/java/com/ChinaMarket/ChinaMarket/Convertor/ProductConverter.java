@@ -27,6 +27,5 @@ public class ProductConverter {
                 .productStatus(product.getProductStatus())
                 .productCategoy(product.getProductCategory())
                 .build();
-
     }
 }

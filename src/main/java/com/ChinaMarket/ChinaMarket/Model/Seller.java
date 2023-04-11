@@ -27,6 +27,7 @@ public class Seller {
     private String mobNo;
     @Column(unique = true)
     private String panNo;
+    private int age;
 
     @OneToMany(mappedBy = "seller", cascade = CascadeType.ALL)
     List<Product> products = new ArrayList<>();
