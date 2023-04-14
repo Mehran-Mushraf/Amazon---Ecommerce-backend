@@ -8,13 +8,16 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@AllArgsConstructor
 @NoArgsConstructor
+@AllArgsConstructor
 @Builder
-public class ProductResponseDto {
-    private String name;
-    private int price;
-    private int quantity;
-    private ProductStatus productStatus;
+public class ItemResponseDto {
 
+    private String productName;
+
+    private int price;
+
+    private ProductCategory productCategory;
+
+    private ProductStatus productStatus;
 }

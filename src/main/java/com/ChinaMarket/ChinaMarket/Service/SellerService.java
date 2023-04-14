@@ -23,7 +23,7 @@ public class SellerService {
        Seller seller = SellerConverter.sellerRequestDtoToSeller(sellerRequestDto);
         sellerRepository.save(seller);
 
-        return "Congrats' Now you can sell on China Market !!!!";
+        return "Congrats' Now you can sell on China Market !!!";
     }
 
     public List<SellerResponseDto> getAllSellers() {
